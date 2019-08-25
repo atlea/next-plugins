@@ -5,11 +5,11 @@
   "license": "MIT",
   "repository": "atlea/next-plugins",
   "dependencies": {
-    "css-loader": "^2.1.0",
-    "extract-css-chunks-webpack-plugin": "^3.3.2",
-    "find-up": "^3.0.0",
-    "ignore-loader": "~0.1.2",
-    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "css-loader": "^3.2.0",
+    "extract-css-chunks-webpack-plugin": "^4.6.0",
+    "find-up": "^4.1.0",
+    "ignore-loader": "^0.1.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0"
   },
   "devDependencies": {
