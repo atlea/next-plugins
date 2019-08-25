@@ -32,16 +32,10 @@ module.exports = (nextConfig = {}) => {
         ]
       })
 
-      config.module.rules.push(
-        {
-          test: /\.scss$/,
-          use: options.defaultLoaders.sass
-        },
-        {
-          test: /\.sass$/,
-          use: options.defaultLoaders.sass
-        }
-      )
+      config.module.rules.push({
+        test: /\.s(?:a|c)ss$/i,
+        use: options.defaultLoaders.sass
+      })
 
       if (typeof nextConfig.webpack === 'function') {
         return nextConfig.webpack(config, options)
