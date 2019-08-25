@@ -9,4 +9,4 @@ The main reason we are using our own plugins instead of the official ones is bec
 - [@atlea/next-css](./packages/next-css)
 - [@atlea/next-sass](./packages/next-sass)
 
-Each listed package has it's own `README.md` file with tips and instructions of use.
+Each plugin has it's own `README.md` file with tips and instructions of use.
